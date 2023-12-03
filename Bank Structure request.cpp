@@ -23,6 +23,7 @@ int trans(int acc,int req,int amount,struct customer bank[10])
 			{
 				if(bank[i].bal<amount)
 				{
+					printf("\nINSUFFICIENT BALANCE");
 					return 0;
 				}
 				else
